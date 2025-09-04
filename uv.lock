@@ -929,6 +929,7 @@ name = "vyper-favorites-uv"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "eth-account" },
     { name = "python-dotenv" },
     { name = "vyper" },
     { name = "web3" },
@@ -936,6 +937,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "eth-account", specifier = ">=0.13.7" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "vyper", specifier = ">=0.4.3" },
     { name = "web3", specifier = ">=7.13.0" },
